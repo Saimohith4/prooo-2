@@ -11,6 +11,15 @@ End;
 
 Django:
 from django import models
-class student(models.Model):
+class employee(models.Model):
        empid = models.intgerfeild()
        empname = models.charfeild(max_lemgth=20)
+
+
+
+Another class:
+class student(models.Model):
+       stuid = models.intgerfeild()
+       stuname = models.charfeild(max_lemgth=20)
+
+
