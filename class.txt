@@ -1,0 +1,9 @@
+create or replace function mydept(pempno emp.empno%type)
+return varchar
+is 
+erec emp%rowtype;
+begin
+select * into erec from emp where empno=pempno;
+ return erec.deptname;
+End;
+/
