@@ -1,3 +1,11 @@
+<<<<<<< Updated upstream
 student 2 
 
 clsasss_________________________________
+
+
+
+
+student 1 
+class ________________
+>>>>>>> Stashed changes
