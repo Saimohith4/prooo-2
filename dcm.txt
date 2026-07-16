@@ -1,4 +1,0 @@
-class dcm(models.Model):
-	dcm_name = models.charfeild(max_length=30)
-
-	id 
